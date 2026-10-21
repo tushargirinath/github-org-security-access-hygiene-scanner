@@ -1,0 +1,11 @@
+repo,ghsa_id,severity,package,state,age_days,is_mock,summary
+data-pipeline,GHSA-synthetic-6070-0,medium,pip:requests,open,224,True,Proxy-Authorization header leak on redirect  [SYNTHETIC SAMPLE]
+data-pipeline,GHSA-synthetic-6070-1,medium,pip:requests,open,63,True,Proxy-Authorization header leak on redirect  [SYNTHETIC SAMPLE]
+infra-scripts-fork,GHSA-synthetic-5203-0,medium,pip:requests,open,224,True,Proxy-Authorization header leak on redirect  [SYNTHETIC SAMPLE]
+infra-scripts-fork,GHSA-synthetic-5203-1,low,npm:tmp,open,35,True,Insecure temp-file creation (dev dependency)  [SYNTHETIC SAMPLE]
+legacy-billing,GHSA-synthetic-8924-0,low,npm:tmp,open,21,True,Insecure temp-file creation (dev dependency)  [SYNTHETIC SAMPLE]
+legacy-billing,GHSA-synthetic-8924-1,high,npm:lodash,open,47,True,Prototype pollution in merge/set  [SYNTHETIC SAMPLE]
+legacy-billing,GHSA-synthetic-8924-2,critical,pip:django,open,151,True,SQL injection via unsanitised ORM query  [SYNTHETIC SAMPLE]
+new-mobile-app,GHSA-synthetic-7762-0,high,npm:lodash,open,305,True,Prototype pollution in merge/set  [SYNTHETIC SAMPLE]
+new-mobile-app,GHSA-synthetic-7762-1,critical,pip:django,fixed,131,True,SQL injection via unsanitised ORM query  [SYNTHETIC SAMPLE]
+new-mobile-app,GHSA-synthetic-7762-2,critical,pip:django,open,51,True,SQL injection via unsanitised ORM query  [SYNTHETIC SAMPLE]

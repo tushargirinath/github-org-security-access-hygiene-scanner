@@ -1,0 +1,38 @@
+{
+  "access_suggestions": {
+    "by_priority": {
+      "high": 2,
+      "low": 1,
+      "medium": 3
+    },
+    "total_suggestions": 6
+  },
+  "advisories_open": 7,
+  "api_calls": 177,
+  "data_file_sha256": {
+    "access_review.csv": "ba233155e9daf1d7c71b27fc9412a9a6d2556643653db3b791566a96a2176c37",
+    "advisories.csv": "93264185b7f8dde50609353c55bf930715377fdb228a824d5169d3fb23bf9d1a",
+    "members.csv": "2bb6fb877395b88e32b91fdaac7a94e100e0bea1ed96502b26f59d86ca1f53af",
+    "report.json": "21ae132dfa722ce0d84d7b5c8f77a7a91a2ad8011a3e9c0010229112f9f7f1c5"
+  },
+  "generated_at": "2025-08-20T12:00:00Z",
+  "lookback_days": 180,
+  "mode": "authorized",
+  "org": "acme-sandbox",
+  "owners": [
+    "renuka-owner",
+    "sam-founder"
+  ],
+  "reference_now": "2025-08-20T12:00:00Z",
+  "tool_version": "1.0.0",
+  "totals": {
+    "analysed": 6,
+    "archived": 1,
+    "forks": 1,
+    "new_repos": 1,
+    "repos": 7,
+    "skipped_empty": 1,
+    "unique_members_with_access": 13
+  },
+  "warnings": []
+}

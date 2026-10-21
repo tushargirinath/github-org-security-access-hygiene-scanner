@@ -1,0 +1,3 @@
+repo,login,permission,access_via,priority,score,relative_score_pct,days_since_activity,commits,prs_opened,prs_merged,reviews,evidence
+payments-api,vendor-x,unknown,contributor,low,0.0,0.0,,0,0,0,0,"No commits, PRs, or reviews in the lookback window. | No recorded activity on this repo in the window. | Contribution is 0% of the repo's top contributor (threshold 15%)."
+web-dashboard,ex-intern,unknown,contributor,low,0.0,0.0,,0,0,0,0,"No commits, PRs, or reviews in the lookback window. | No recorded activity on this repo in the window. | Contribution is 0% of the repo's top contributor (threshold 15%)."

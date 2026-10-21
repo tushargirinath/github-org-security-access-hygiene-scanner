@@ -1,0 +1,749 @@
+{
+  "api_calls": 169,
+  "owners": [],
+  "repos": [
+    {
+      "advisories": [],
+      "contributions": [],
+      "flags": [
+        "empty"
+      ],
+      "notes": [
+        "Empty repo \u2014 no content to analyse; skipped."
+      ],
+      "recommendations": [],
+      "repo": {
+        "archived": false,
+        "created_at": "2025-07-11T12:00:00Z",
+        "default_branch": "main",
+        "disabled": false,
+        "fork": false,
+        "full_name": "acme-sandbox/archived-empty-repo",
+        "name": "archived-empty-repo",
+        "private": false,
+        "pushed_at": null,
+        "size_kb": 0
+      }
+    },
+    {
+      "advisories": [
+        {
+          "age_days": 224,
+          "created_at": "",
+          "ghsa_id": "GHSA-synthetic-6070-0",
+          "is_mock": true,
+          "package": "pip:requests",
+          "repo": "data-pipeline",
+          "severity": "medium",
+          "state": "open",
+          "summary": "Proxy-Authorization header leak on redirect  [SYNTHETIC SAMPLE]"
+        },
+        {
+          "age_days": 63,
+          "created_at": "",
+          "ghsa_id": "GHSA-synthetic-6070-1",
+          "is_mock": true,
+          "package": "pip:requests",
+          "repo": "data-pipeline",
+          "severity": "medium",
+          "state": "open",
+          "summary": "Proxy-Authorization header leak on redirect  [SYNTHETIC SAMPLE]"
+        }
+      ],
+      "contributions": [
+        {
+          "access_via": "contributor",
+          "account_type": "User",
+          "days_since_activity": 20,
+          "is_bot": false,
+          "is_owner": false,
+          "login": "hikaru-data",
+          "metrics": {
+            "commits": 210,
+            "last_activity": "2025-07-31T12:00:00Z",
+            "prs_merged": 39,
+            "prs_opened": 40,
+            "reviews": 4
+          },
+          "permission": "unknown",
+          "raw_score": 415.0,
+          "recency_factor": 0.8572439828530728,
+          "relative_score": 100.0,
+          "score": 355.7563
+        },
+        {
+          "access_via": "contributor",
+          "account_type": "Bot",
+          "days_since_activity": 3,
+          "is_bot": true,
+          "is_owner": false,
+          "login": "ci-bot",
+          "metrics": {
+            "commits": 60,
+            "last_activity": "2025-08-17T12:00:00Z",
+            "prs_merged": 0,
+            "prs_opened": 0,
+            "reviews": 0
+          },
+          "permission": "unknown",
+          "raw_score": 60.0,
+          "recency_factor": 0.9771599684342459,
+          "relative_score": 16.5,
+          "score": 58.6296
+        }
+      ],
+      "flags": [
+        "single_maintainer"
+      ],
+      "notes": [
+        "Single active maintainer ('hikaru-data') \u2014 bus-factor risk; not suggested for removal."
+      ],
+      "recommendations": [],
+      "repo": {
+        "archived": false,
+        "created_at": "2024-04-07T12:00:00Z",
+        "default_branch": "main",
+        "disabled": false,
+        "fork": false,
+        "full_name": "acme-sandbox/data-pipeline",
+        "name": "data-pipeline",
+        "private": false,
+        "pushed_at": "2025-07-31T12:00:00Z",
+        "size_kb": 5400
+      }
+    },
+    {
+      "advisories": [
+        {
+          "age_days": 224,
+          "created_at": "",
+          "ghsa_id": "GHSA-synthetic-5203-0",
+          "is_mock": true,
+          "package": "pip:requests",
+          "repo": "infra-scripts-fork",
+          "severity": "medium",
+          "state": "open",
+          "summary": "Proxy-Authorization header leak on redirect  [SYNTHETIC SAMPLE]"
+        },
+        {
+          "age_days": 35,
+          "created_at": "",
+          "ghsa_id": "GHSA-synthetic-5203-1",
+          "is_mock": true,
+          "package": "npm:tmp",
+          "repo": "infra-scripts-fork",
+          "severity": "low",
+          "state": "open",
+          "summary": "Insecure temp-file creation (dev dependency)  [SYNTHETIC SAMPLE]"
+        }
+      ],
+      "contributions": [
+        {
+          "access_via": "contributor",
+          "account_type": "User",
+          "days_since_activity": 60,
+          "is_bot": false,
+          "is_owner": false,
+          "login": "diego-dev",
+          "metrics": {
+            "commits": 8,
+            "last_activity": "2025-06-21T12:00:00Z",
+            "prs_merged": 1,
+            "prs_opened": 2,
+            "reviews": 0
+          },
+          "permission": "unknown",
+          "raw_score": 15.0,
+          "recency_factor": 0.6299605249474366,
+          "relative_score": 100.0,
+          "score": 9.4494
+        },
+        {
+          "access_via": "contributor",
+          "account_type": "User",
+          "days_since_activity": 70,
+          "is_bot": false,
+          "is_owner": false,
+          "login": "vendor-x",
+          "metrics": {
+            "commits": 3,
+            "last_activity": "2025-06-11T12:00:00Z",
+            "prs_merged": 0,
+            "prs_opened": 1,
+            "reviews": 0
+          },
+          "permission": "unknown",
+          "raw_score": 5.0,
+          "recency_factor": 0.5832645197880583,
+          "relative_score": 30.9,
+          "score": 2.9163
+        }
+      ],
+      "flags": [
+        "fork"
+      ],
+      "notes": [],
+      "recommendations": [],
+      "repo": {
+        "archived": false,
+        "created_at": "2025-04-22T12:00:00Z",
+        "default_branch": "main",
+        "disabled": false,
+        "fork": true,
+        "full_name": "acme-sandbox/infra-scripts-fork",
+        "name": "infra-scripts-fork",
+        "private": false,
+        "pushed_at": "2025-06-21T12:00:00Z",
+        "size_kb": 900
+      }
+    },
+    {
+      "advisories": [
+        {
+          "age_days": 21,
+          "created_at": "",
+          "ghsa_id": "GHSA-synthetic-8924-0",
+          "is_mock": true,
+          "package": "npm:tmp",
+          "repo": "legacy-billing",
+          "severity": "low",
+          "state": "open",
+          "summary": "Insecure temp-file creation (dev dependency)  [SYNTHETIC SAMPLE]"
+        },
+        {
+          "age_days": 47,
+          "created_at": "",
+          "ghsa_id": "GHSA-synthetic-8924-1",
+          "is_mock": true,
+          "package": "npm:lodash",
+          "repo": "legacy-billing",
+          "severity": "high",
+          "state": "open",
+          "summary": "Prototype pollution in merge/set  [SYNTHETIC SAMPLE]"
+        },
+        {
+          "age_days": 151,
+          "created_at": "",
+          "ghsa_id": "GHSA-synthetic-8924-2",
+          "is_mock": true,
+          "package": "pip:django",
+          "repo": "legacy-billing",
+          "severity": "critical",
+          "state": "open",
+          "summary": "SQL injection via unsanitised ORM query  [SYNTHETIC SAMPLE]"
+        }
+      ],
+      "contributions": [],
+      "flags": [
+        "archived"
+      ],
+      "notes": [
+        "No members/collaborators resolved for this repo."
+      ],
+      "recommendations": [],
+      "repo": {
+        "archived": true,
+        "created_at": "2021-04-03T12:00:00Z",
+        "default_branch": "master",
+        "disabled": false,
+        "fork": false,
+        "full_name": "acme-sandbox/legacy-billing",
+        "name": "legacy-billing",
+        "private": false,
+        "pushed_at": "2024-04-07T12:00:00Z",
+        "size_kb": 3100
+      }
+    },
+    {
+      "advisories": [
+        {
+          "age_days": 305,
+          "created_at": "",
+          "ghsa_id": "GHSA-synthetic-7762-0",
+          "is_mock": true,
+          "package": "npm:lodash",
+          "repo": "new-mobile-app",
+          "severity": "high",
+          "state": "open",
+          "summary": "Prototype pollution in merge/set  [SYNTHETIC SAMPLE]"
+        },
+        {
+          "age_days": 131,
+          "created_at": "",
+          "ghsa_id": "GHSA-synthetic-7762-1",
+          "is_mock": true,
+          "package": "pip:django",
+          "repo": "new-mobile-app",
+          "severity": "critical",
+          "state": "fixed",
+          "summary": "SQL injection via unsanitised ORM query  [SYNTHETIC SAMPLE]"
+        },
+        {
+          "age_days": 51,
+          "created_at": "",
+          "ghsa_id": "GHSA-synthetic-7762-2",
+          "is_mock": true,
+          "package": "pip:django",
+          "repo": "new-mobile-app",
+          "severity": "critical",
+          "state": "open",
+          "summary": "SQL injection via unsanitised ORM query  [SYNTHETIC SAMPLE]"
+        }
+      ],
+      "contributions": [
+        {
+          "access_via": "contributor",
+          "account_type": "User",
+          "days_since_activity": 1,
+          "is_bot": false,
+          "is_owner": false,
+          "login": "marco-fe",
+          "metrics": {
+            "commits": 20,
+            "last_activity": "2025-08-19T12:00:00Z",
+            "prs_merged": 3,
+            "prs_opened": 5,
+            "reviews": 1
+          },
+          "permission": "unknown",
+          "raw_score": 41.0,
+          "recency_factor": 0.9923279462629435,
+          "relative_score": 100.0,
+          "score": 40.6854
+        },
+        {
+          "access_via": "contributor",
+          "account_type": "User",
+          "days_since_activity": 5,
+          "is_bot": false,
+          "is_owner": false,
+          "login": "aisha-dev",
+          "metrics": {
+            "commits": 2,
+            "last_activity": "2025-08-15T12:00:00Z",
+            "prs_merged": 0,
+            "prs_opened": 1,
+            "reviews": 0
+          },
+          "permission": "unknown",
+          "raw_score": 4.0,
+          "recency_factor": 0.9622238368941451,
+          "relative_score": 9.5,
+          "score": 3.8489
+        },
+        {
+          "access_via": "contributor",
+          "account_type": "User",
+          "days_since_activity": 8,
+          "is_bot": false,
+          "is_owner": false,
+          "login": "renuka-owner",
+          "metrics": {
+            "commits": 1,
+            "last_activity": "2025-08-12T12:00:00Z",
+            "prs_merged": 0,
+            "prs_opened": 0,
+            "reviews": 0
+          },
+          "permission": "unknown",
+          "raw_score": 1.0,
+          "recency_factor": 0.9402466140861618,
+          "relative_score": 2.3,
+          "score": 0.9402
+        }
+      ],
+      "flags": [
+        "new_repo"
+      ],
+      "notes": [
+        "Repo created <30d ago \u2014 access recommendations suppressed (insufficient history)."
+      ],
+      "recommendations": [],
+      "repo": {
+        "archived": false,
+        "created_at": "2025-08-08T12:00:00Z",
+        "default_branch": "main",
+        "disabled": false,
+        "fork": false,
+        "full_name": "acme-sandbox/new-mobile-app",
+        "name": "new-mobile-app",
+        "private": false,
+        "pushed_at": "2025-08-19T12:00:00Z",
+        "size_kb": 400
+      }
+    },
+    {
+      "advisories": [],
+      "contributions": [
+        {
+          "access_via": "contributor",
+          "account_type": "Bot",
+          "days_since_activity": 1,
+          "is_bot": true,
+          "is_owner": false,
+          "login": "ci-bot",
+          "metrics": {
+            "commits": 300,
+            "last_activity": "2025-08-19T12:00:00Z",
+            "prs_merged": 0,
+            "prs_opened": 0,
+            "reviews": 0
+          },
+          "permission": "unknown",
+          "raw_score": 300.0,
+          "recency_factor": 0.9923279462629435,
+          "relative_score": 105.0,
+          "score": 297.6984
+        },
+        {
+          "access_via": "contributor",
+          "account_type": "User",
+          "days_since_activity": 2,
+          "is_bot": false,
+          "is_owner": false,
+          "login": "aisha-dev",
+          "metrics": {
+            "commits": 120,
+            "last_activity": "2025-08-18T12:00:00Z",
+            "prs_merged": 28,
+            "prs_opened": 30,
+            "reviews": 12
+          },
+          "permission": "unknown",
+          "raw_score": 288.0,
+          "recency_factor": 0.9847147529344312,
+          "relative_score": 100.0,
+          "score": 283.5978
+        },
+        {
+          "access_via": "contributor",
+          "account_type": "User",
+          "days_since_activity": 4,
+          "is_bot": false,
+          "is_owner": false,
+          "login": "diego-dev",
+          "metrics": {
+            "commits": 78,
+            "last_activity": "2025-08-16T12:00:00Z",
+            "prs_merged": 18,
+            "prs_opened": 20,
+            "reviews": 43
+          },
+          "permission": "unknown",
+          "raw_score": 258.0,
+          "recency_factor": 0.969663144646718,
+          "relative_score": 88.2,
+          "score": 250.1731
+        },
+        {
+          "access_via": "contributor",
+          "account_type": "User",
+          "days_since_activity": 6,
+          "is_bot": false,
+          "is_owner": false,
+          "login": "lena-sec",
+          "metrics": {
+            "commits": 4,
+            "last_activity": "2025-08-14T12:00:00Z",
+            "prs_merged": 2,
+            "prs_opened": 2,
+            "reviews": 51
+          },
+          "permission": "unknown",
+          "raw_score": 116.0,
+          "recency_factor": 0.9548416039104165,
+          "relative_score": 39.1,
+          "score": 110.7616
+        },
+        {
+          "access_via": "contributor",
+          "account_type": "User",
+          "days_since_activity": 35,
+          "is_bot": false,
+          "is_owner": false,
+          "login": "renuka-owner",
+          "metrics": {
+            "commits": 3,
+            "last_activity": "2025-07-16T12:00:00Z",
+            "prs_merged": 1,
+            "prs_opened": 1,
+            "reviews": 4
+          },
+          "permission": "unknown",
+          "raw_score": 16.0,
+          "recency_factor": 0.7637175654573216,
+          "relative_score": 4.3,
+          "score": 12.2195
+        },
+        {
+          "access_via": "contributor",
+          "account_type": "User",
+          "days_since_activity": null,
+          "is_bot": false,
+          "is_owner": false,
+          "login": "vendor-x",
+          "metrics": {
+            "commits": 0,
+            "last_activity": null,
+            "prs_merged": 0,
+            "prs_opened": 0,
+            "reviews": 0
+          },
+          "permission": "unknown",
+          "raw_score": 0.0,
+          "recency_factor": 0.0,
+          "relative_score": 0.0,
+          "score": 0.0
+        }
+      ],
+      "flags": [],
+      "notes": [],
+      "recommendations": [
+        {
+          "access_via": "contributor",
+          "days_since_activity": null,
+          "login": "vendor-x",
+          "metrics": {
+            "commits": 0,
+            "prs_merged": 0,
+            "prs_opened": 0,
+            "reviews": 0
+          },
+          "permission": "unknown",
+          "priority": "low",
+          "reasons": [
+            "No commits, PRs, or reviews in the lookback window.",
+            "No recorded activity on this repo in the window.",
+            "Contribution is 0% of the repo's top contributor (threshold 15%)."
+          ],
+          "relative_score": 0.0,
+          "repo": "payments-api",
+          "score": 0.0
+        }
+      ],
+      "repo": {
+        "archived": false,
+        "created_at": "2022-08-16T12:00:00Z",
+        "default_branch": "main",
+        "disabled": false,
+        "fork": false,
+        "full_name": "acme-sandbox/payments-api",
+        "name": "payments-api",
+        "private": false,
+        "pushed_at": "2025-08-18T12:00:00Z",
+        "size_kb": 8200
+      }
+    },
+    {
+      "advisories": [],
+      "contributions": [
+        {
+          "access_via": "contributor",
+          "account_type": "User",
+          "days_since_activity": 3,
+          "is_bot": false,
+          "is_owner": false,
+          "login": "marco-fe",
+          "metrics": {
+            "commits": 95,
+            "last_activity": "2025-08-17T12:00:00Z",
+            "prs_merged": 22,
+            "prs_opened": 24,
+            "reviews": 18
+          },
+          "permission": "unknown",
+          "raw_score": 245.0,
+          "recency_factor": 0.9771599684342459,
+          "relative_score": 100.0,
+          "score": 239.4042
+        },
+        {
+          "access_via": "contributor",
+          "account_type": "User",
+          "days_since_activity": 9,
+          "is_bot": false,
+          "is_owner": false,
+          "login": "diego-dev",
+          "metrics": {
+            "commits": 30,
+            "last_activity": "2025-08-11T12:00:00Z",
+            "prs_merged": 7,
+            "prs_opened": 8,
+            "reviews": 18
+          },
+          "permission": "unknown",
+          "raw_score": 103.0,
+          "recency_factor": 0.9330329915368074,
+          "relative_score": 40.1,
+          "score": 96.1024
+        },
+        {
+          "access_via": "contributor",
+          "account_type": "User",
+          "days_since_activity": 22,
+          "is_bot": false,
+          "is_owner": false,
+          "login": "aisha-dev",
+          "metrics": {
+            "commits": 12,
+            "last_activity": "2025-07-29T12:00:00Z",
+            "prs_merged": 3,
+            "prs_opened": 4,
+            "reviews": 1
+          },
+          "permission": "unknown",
+          "raw_score": 31.0,
+          "recency_factor": 0.8441407967796914,
+          "relative_score": 10.9,
+          "score": 26.1684
+        },
+        {
+          "access_via": "contributor",
+          "account_type": "User",
+          "days_since_activity": null,
+          "is_bot": false,
+          "is_owner": false,
+          "login": "ex-intern",
+          "metrics": {
+            "commits": 0,
+            "last_activity": null,
+            "prs_merged": 0,
+            "prs_opened": 0,
+            "reviews": 0
+          },
+          "permission": "unknown",
+          "raw_score": 0.0,
+          "recency_factor": 0.0,
+          "relative_score": 0.0,
+          "score": 0.0
+        }
+      ],
+      "flags": [],
+      "notes": [],
+      "recommendations": [
+        {
+          "access_via": "contributor",
+          "days_since_activity": null,
+          "login": "ex-intern",
+          "metrics": {
+            "commits": 0,
+            "prs_merged": 0,
+            "prs_opened": 0,
+            "reviews": 0
+          },
+          "permission": "unknown",
+          "priority": "low",
+          "reasons": [
+            "No commits, PRs, or reviews in the lookback window.",
+            "No recorded activity on this repo in the window.",
+            "Contribution is 0% of the repo's top contributor (threshold 15%)."
+          ],
+          "relative_score": 0.0,
+          "repo": "web-dashboard",
+          "score": 0.0
+        }
+      ],
+      "repo": {
+        "archived": false,
+        "created_at": "2023-06-12T12:00:00Z",
+        "default_branch": "main",
+        "disabled": false,
+        "fork": false,
+        "full_name": "acme-sandbox/web-dashboard",
+        "name": "web-dashboard",
+        "private": false,
+        "pushed_at": "2025-08-11T12:00:00Z",
+        "size_kb": 15300
+      }
+    }
+  ],
+  "summary": {
+    "access": {
+      "by_priority": {
+        "high": 0,
+        "low": 2,
+        "medium": 0
+      },
+      "total_suggestions": 2
+    },
+    "advisories": {
+      "all_by_severity": {
+        "critical": 3,
+        "high": 2,
+        "low": 2,
+        "medium": 3
+      },
+      "by_state": {
+        "fixed": 1,
+        "open": 9
+      },
+      "contains_mock": true,
+      "oldest_unresolved": {
+        "age_days": 305,
+        "package": "npm:lodash",
+        "repo": "new-mobile-app",
+        "severity": "high"
+      },
+      "open_by_severity": {
+        "critical": 2,
+        "high": 2,
+        "low": 2,
+        "medium": 3
+      },
+      "total_open": 9
+    },
+    "generated_at": "2025-08-20T12:00:00Z",
+    "mode": "public-limited",
+    "most_affected_repos": [
+      {
+        "advisory_risk_weight": 16.0,
+        "flags": [
+          "archived"
+        ],
+        "open_advisories": 3,
+        "recommendations": 0,
+        "repo": "legacy-billing"
+      },
+      {
+        "advisory_risk_weight": 15.0,
+        "flags": [
+          "new_repo"
+        ],
+        "open_advisories": 2,
+        "recommendations": 0,
+        "repo": "new-mobile-app"
+      },
+      {
+        "advisory_risk_weight": 4.0,
+        "flags": [
+          "single_maintainer"
+        ],
+        "open_advisories": 2,
+        "recommendations": 0,
+        "repo": "data-pipeline"
+      },
+      {
+        "advisory_risk_weight": 3.0,
+        "flags": [
+          "fork"
+        ],
+        "open_advisories": 2,
+        "recommendations": 0,
+        "repo": "infra-scripts-fork"
+      }
+    ],
+    "org": "acme-sandbox",
+    "totals": {
+      "analysed": 6,
+      "archived": 1,
+      "forks": 1,
+      "new_repos": 1,
+      "repos": 7,
+      "skipped_empty": 1,
+      "unique_members_with_access": 9
+    }
+  },
+  "warnings": [
+    "Could not read the org owner list (needs org membership/admin). Owner-exclusion cannot be guaranteed in this mode \u2014 verify any suggestion against the real owners before acting."
+  ]
+}

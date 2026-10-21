@@ -1,0 +1,48 @@
+{
+  "access_suggestions": {
+    "by_priority": {
+      "high": 0,
+      "low": 4527,
+      "medium": 0
+    },
+    "total_suggestions": 4527
+  },
+  "advisories_open": 86,
+  "api_calls": 5144,
+  "data_file_sha256": {
+    "access_review.csv": "95ae98c7ce6ad0671fcfd972824dd195e300711cef90fa0aa95298a9bd57a8f1",
+    "advisories.csv": "5a7310e75aebee59fc354ab172dfc2665b94c7ebf1ffa95c89e57c91a5d32cda",
+    "members.csv": "a0d535f95a9909d42d031ab473821bb4fca15e3ed30f9d34c763e9203d00964c",
+    "report.json": "0a477476756d42465b8021238e36bbbc285d5fed4daa0cdc1987c0aac66cc36c"
+  },
+  "generated_at": "2026-10-21T08:14:03Z",
+  "lookback_days": 180,
+  "mode": "public-limited",
+  "org": "astral-sh",
+  "owners": [
+    "AlexWaygood",
+    "BurntSushi",
+    "EliteTK",
+    "MichaReiser",
+    "charliermarsh",
+    "dcreager",
+    "dhruvmanila",
+    "ibraheemdev",
+    "konstin",
+    "woodruffw",
+    "zanieb",
+    "zsol"
+  ],
+  "reference_now": "2026-10-21T08:14:03Z",
+  "tool_version": "1.0.0",
+  "totals": {
+    "analysed": 94,
+    "archived": 11,
+    "forks": 25,
+    "new_repos": 5,
+    "repos": 95,
+    "skipped_empty": 1,
+    "unique_members_with_access": 3553
+  },
+  "warnings": []
+}

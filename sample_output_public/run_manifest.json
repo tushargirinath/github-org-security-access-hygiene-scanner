@@ -1,0 +1,37 @@
+{
+  "access_suggestions": {
+    "by_priority": {
+      "high": 0,
+      "low": 2,
+      "medium": 0
+    },
+    "total_suggestions": 2
+  },
+  "advisories_open": 9,
+  "api_calls": 169,
+  "data_file_sha256": {
+    "access_review.csv": "e0ffd36ed464412b89028f78e2c57d63f5993df176057249805804b88a327deb",
+    "advisories.csv": "421e93a38b44662170e12a14fe2e2f5eef584263f2062af2b40df5db1e3f1668",
+    "members.csv": "c7403a843d6fac4d02aca62853882eae35c7281efab0bcb16c3aa7b637544334",
+    "report.json": "7b42a43efdd8cd794a93b44af7ebae7565c9752555f7896d6ecf1ca585416833"
+  },
+  "generated_at": "2025-08-20T12:00:00Z",
+  "lookback_days": 180,
+  "mode": "public-limited",
+  "org": "acme-sandbox",
+  "owners": [],
+  "reference_now": "2025-08-20T12:00:00Z",
+  "tool_version": "1.0.0",
+  "totals": {
+    "analysed": 6,
+    "archived": 1,
+    "forks": 1,
+    "new_repos": 1,
+    "repos": 7,
+    "skipped_empty": 1,
+    "unique_members_with_access": 9
+  },
+  "warnings": [
+    "Could not read the org owner list (needs org membership/admin). Owner-exclusion cannot be guaranteed in this mode \u2014 verify any suggestion against the real owners before acting."
+  ]
+}

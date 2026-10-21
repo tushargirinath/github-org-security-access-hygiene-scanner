@@ -1,0 +1,10 @@
+repo,ghsa_id,severity,package,state,age_days,is_mock,summary
+data-pipeline,GHSA-mock-data-pipeline-1,critical,pip:numpy,open,190,False,Buffer overflow in array-from-buffer path
+legacy-billing,GHSA-mock-legacy-billing-1,high,pip:flask,open,460,False,Open redirect in error handler
+payments-api,GHSA-mock-payments-api-1,critical,pip:django,open,240,False,SQL injection via crafted query in Django ORM
+payments-api,GHSA-mock-payments-api-2,high,npm:lodash,open,130,False,Prototype pollution in lodash merge
+payments-api,GHSA-mock-payments-api-3,high,pip:cryptography,open,40,False,NULL pointer deref in OpenSSL-backed cipher
+payments-api,GHSA-mock-payments-api-4,medium,pip:requests,fixed,18,False,Leak of Proxy-Authorization header on redirect
+payments-api,GHSA-mock-payments-api-5,low,npm:tmp,dismissed,300,False,Arbitrary temp file write (dev-only dependency)
+web-dashboard,GHSA-mock-web-dashboard-1,high,npm:next,open,75,False,SSRF in image optimisation endpoint
+web-dashboard,GHSA-mock-web-dashboard-2,medium,npm:postcss,open,22,False,ReDoS in PostCSS parser
